@@ -608,9 +608,14 @@ ul li {
   width: 200px;
   height: 50px;
   padding: 10px 29px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   text-align: center;
+  color: #ffffff;
 }
 
 .subscribe-btn:hover,
@@ -633,6 +638,7 @@ ul li {
   top: 0;
   position: fixed;
   display: flex;
+  z-index: 999;
   align-items: center;
   justify-content: center;
   transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
@@ -646,6 +652,7 @@ ul li {
 }
 
 .modal {
+  padding: 40px;
   position: relative;
   width: 528px;
   min-height: 581px;
