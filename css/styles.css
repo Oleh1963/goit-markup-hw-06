@@ -502,6 +502,11 @@ ul li {
 .footer-left-container {
   margin-right: 70px;
 }
+
+.footer-right-container {
+  margin-right: 93px;
+}
+
 .footer-logo {
   color: var(--tertiary-text-color);
 }
@@ -544,6 +549,7 @@ ul li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-bottom: 20px;
 }
 
 .footer-fill {
@@ -552,6 +558,15 @@ ul li {
 
 .dark-bg {
   background: rgba(255, 255, 255, 0.1);
+}
+
+.subscribe-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .backdrop {
