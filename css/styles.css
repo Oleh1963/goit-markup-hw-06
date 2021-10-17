@@ -616,11 +616,13 @@ ul li {
   align-items: center;
   text-align: center;
   color: #ffffff;
+  border-radius: 4px;
+  background-color: #2196f3;
 }
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--accent-color);
 }
 
 .icon-send {
@@ -802,6 +804,15 @@ ul li {
 .modal-btn {
   width: 200px;
   height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border-radius: 4px;
   display: block;
   margin: 0 auto;
 }
